@@ -12,59 +12,59 @@ return {
 	{
         REPAIR =
         {
-            WRONGPIECE = "I don't think that was right.",
+            WRONGPIECE = "Esto no va aqui.",
         },
         BUILD =
         {
-            MOUNTED = "I can't place that from way up here.",
-            HASPET = "I've already got a pet.",
+            MOUNTED = "Si estoy montando no llego.",
+            HASPET = "Ya tengo mascota.",
         },
 		SHAVE =
 		{
-			AWAKEBEEFALO = "I'm not going to try that while he's awake.",
-			GENERIC = "I can't shave that!",
-			NOBITS = "There isn't even any stubble left!",
+			AWAKEBEEFALO = "Mejor espero a que se vaya a mimir.",
+			GENERIC = "No hay barba para afeitar.",
+			NOBITS = "No hay ni pelusilla.",
             REFUSE = "only_used_by_woodie",
 		},
 		STORE =
 		{
-			GENERIC = "It's full.",
-			NOTALLOWED = "That can't go in there.",
-			INUSE = "I should wait my turn.",
-            NOTMASTERCHEF = "I'm not a fancy enough chef for that.",
+			GENERIC = "Esta lleno.",
+			NOTALLOWED = "Aqui no la puedo meter.",
+			INUSE = "Dani lo esta usando.",
+            NOTMASTERCHEF = "El Franciscano no me ha enseñado aun.",
 		},
         CONSTRUCT =
         {
-            INUSE = "Someone beat me to it.",
-            NOTALLOWED = "It won't fit.",
-            EMPTY = "I need something to build with.",
-            MISMATCH = "Whoops! Wrong plans.",
+            INUSE = "Dani lo esta construyendo.",
+            NOTALLOWED = "No cabe.",
+            EMPTY = "Con las manitas no lo voy a construir.",
+            MISMATCH = "Creo que esto no va asi.",
         },
 		RUMMAGE =
 		{	
-			GENERIC = "I can't do that.",
-			INUSE = "They're elbow deep in junk right now.",
-            NOTMASTERCHEF = "I'm not a fancy enough chef for that.",
+			GENERIC = "No puedo hacer esto.",
+			INUSE = "Estan hasta arriba.",
+            NOTMASTERCHEF = "El Franciscano no me ha enseñado aun.",
 		},
 		UNLOCK =
         {
-        	WRONGKEY = "I can't do that.",
+        	WRONGKEY = "No puedo.",
         },
 		USEKLAUSSACKKEY =
         {
-        	WRONGKEY = "Whoops! That wasn't right.",
-        	KLAUS = "I'm a little preoccupied!!",
-			QUAGMIRE_WRONGKEY = "I'll just have to find another key.",
+        	WRONGKEY = "Esto no va aqui.",
+        	KLAUS = "¡Pero que coño!",
+			QUAGMIRE_WRONGKEY = "Tengo que encontrar otra llave.",
         },
 		ACTIVATE = 
 		{
-			LOCKED_GATE = "The gate is locked.",
+			LOCKED_GATE = "La puerta esta cerrada.",
 		},
         COOK =
         {
-            GENERIC = "I can't cook right now.",
-            INUSE = "Looks like we had the same idea.",
-            TOOFAR = "It's too far away!",
+            GENERIC = "No puedo cocinar ahora.",
+            INUSE = "Dani esta cocinando.",
+            TOOFAR = "¡No llego!",
         },
         
         --warly specific action
@@ -76,7 +76,7 @@ return {
         },
         FISH_OCEAN =
 		{
-			TOODEEP = "This rod wasn't made for deep sea fishing.",
+			TOODEEP = "No voy a usar la caña buena en esta charca.",
 		},
         --wickerbottom specific action
         READ =
@@ -87,119 +87,119 @@ return {
 
         GIVE =
         {
-            GENERIC = "That doesn't go there.",
-            DEAD = "Maybe I'll just hold on to this.",
-            SLEEPING = "Too unconscious to care.",
-            BUSY = "I'll try again in a second.",
-            ABIGAILHEART = "It was worth a shot.",
-            GHOSTHEART = "Perhaps this is a bad idea.",
-            NOTGEM = "I'm not sticking that in there!",
-            WRONGGEM = "This gem won't work here.",
-            NOTSTAFF = "It's not quite the right shape.",
-            MUSHROOMFARM_NEEDSSHROOM = "A mushroom would probably be of more use.",
-            MUSHROOMFARM_NEEDSLOG = "A living log would probably be of more use.",
-            SLOTFULL = "We already put something there.",
-            FOODFULL = "There's already a meal there.",
-            NOTDISH = "It won't want to eat that.",
-            DUPLICATE = "We already know that one.",
-            NOTSCULPTABLE = "Not even science could make that into a sculpture.",
-            NOTATRIUMKEY = "It's not quite the right shape.",
-            CANTSHADOWREVIVE = "It won't resurrect.",
-            WRONGSHADOWFORM = "It's not put together right.",
-            NOMOON = "I need to see the moon for that to work.",
-			PIGKINGGAME_MESSY = "I need to clean up first.",
-			PIGKINGGAME_DANGER = "It's too dangerous for that right now.",
-			PIGKINGGAME_TOOLATE = "It's too late for that now.",
+            GENERIC = "Eso no va ahi.",
+            DEAD = "Creo que mejor me lo quedo.",
+            SLEEPING = "No creo que le importe.",
+            BUSY = "Ahora pruebo otra vez.",
+            ABIGAILHEART = "Valio la pena intentarlo.",
+            GHOSTHEART = "Esto es mala idea.",
+            NOTGEM = "No voy a meter esto ahi",
+            WRONGGEM = "Esta gema no va aqui.",
+            NOTSTAFF = "No tiene la forma adecuada.",
+            MUSHROOMFARM_NEEDSSHROOM = "Una seta mejor.",
+            MUSHROOMFARM_NEEDSLOG = "Un tronco viviente mejor.",
+            SLOTFULL = "Ya hemos puesto algo aqui.",
+            FOODFULL = "Ya hay comida ahi.",
+            NOTDISH = "No se va a comer eso.",
+            DUPLICATE = "Este ya me lo se.",
+            NOTSCULPTABLE = "No se como esculpir esto.",
+            NOTATRIUMKEY = "Esto no va aqui.",
+            CANTSHADOWREVIVE = "No puede resucitar.",
+            WRONGSHADOWFORM = "Algo esta mal.",
+            NOMOON = "Necesito ver la luna para que funcione.",
+			PIGKINGGAME_MESSY = "Necesito pasar la aspiradora.",
+			PIGKINGGAME_DANGER = "Peligroso.",
+			PIGKINGGAME_TOOLATE = "Tarde.",
         },
         GIVETOPLAYER =
         {
-            FULL = "Your pockets are too full!",
-            DEAD = "Maybe I'll just hold on to this.",
-            SLEEPING = "Too unconscious to care.",
-            BUSY = "I'll try again in a second.",
+            FULL = "Tienes los bolsillos llenos.",
+            DEAD = "Creo que mejor me lo quedo.",
+            SLEEPING = "Esta mimiendo.",
+            BUSY = "Ocupado.",
         },
         GIVEALLTOPLAYER =
         {
-            FULL = "Your pockets are too full!",
-            DEAD = "Maybe I'll just hold on to this.",
-            SLEEPING = "Too unconscious to care.",
-            BUSY = "I'll try again in a second.",
+            FULL = "Tienes los bolsillos llenos",
+            DEAD = "Creo que mejor me lo quedo.",
+            SLEEPING = "Esta mimiendo.",
+            BUSY = "Ocupado.",
         },
         WRITE =
         {
-            GENERIC = "I think it's fine as is.",
-            INUSE = "There's only room for one scribbler.",
+            GENERIC = "Creo que esta bien asi",
+            INUSE = "Dani esta escribiendo.",
         },
         DRAW =
         {
-            NOIMAGE = "This'd be easier if I had the item in front of me.",
+            NOIMAGE = "Necesito un modelo.",
         },
         CHANGEIN =
         {
-            GENERIC = "I don't want to change right now.",
-            BURNING = "It's too dangerous right now!",
-            INUSE = "It can only handle one style change at a time.",
+            GENERIC = "No quiero.",
+            BURNING = "Peligroso",
+            INUSE = "Dani se esta cambiando.",
         },
         ATTUNE =
         {
-            NOHEALTH = "I don't feel well enough.",
+            NOHEALTH = "Estoy un poco low.",
         },
         MOUNT =
         {
-            TARGETINCOMBAT = "I know better than to bother an angry beefalo!",
-            INUSE = "Someone beat me to the saddle!",
+            TARGETINCOMBAT = "No enfades a un Beefalo.",
+            INUSE = "Dani me ha quitado la montura.",
         },
         SADDLE =
         {
-            TARGETINCOMBAT = "It won't let me do that while it's angry.",
+            TARGETINCOMBAT = "No si esta enfadado.",
         },
         TEACH =
         {
             --Recipes/Teacher
-            KNOWN = "I already know that one.",
-            CANTLEARN = "I can't learn that one.",
+            KNOWN = "Ya me la se.",
+            CANTLEARN = "Solo me la aprendo con un video del franciscano.",
 
             --MapRecorder/MapExplorer
-            WRONGWORLD = "This map was made for some other place.",
+            WRONGWORLD = "Este mapa no es de aqui.",
         },
         WRAPBUNDLE =
         {
-            EMPTY = "I need to have something to wrap.",
+            EMPTY = "Necesito algo para envolver.",
         },
         PICKUP =
         {
-			RESTRICTION = "I'm not skilled enough to use that.",
-			INUSE = "Science says I have to wait my turn.",
+			RESTRICTION = "No le se.",
+			INUSE = "Dani lo esta usando.",
         },
         SLAUGHTER =
         {
-            TOOFAR = "It got away.",
+            TOOFAR = "Se fue.",
         },
         REPLATE =
         {
-            MISMATCH = "It needs another type of dish.", 
-            SAMEDISH = "I only need to use one dish.", 
+            MISMATCH = "Necesita otro tipo de plato.", 
+            SAMEDISH = "Solo necesito uno.", 
         },
         SAIL =
         {
-        	REPAIR = "It doesn't need repairing.",
+        	REPAIR = "Esta joya.",
         },
         ROW_FAIL =
         {
-            BAD_TIMING0 = "Too soon!",
-            BAD_TIMING1 = "My timing is off!",
-            BAD_TIMING2 = "Not again!",
+            BAD_TIMING0 = "¡Muy pronto!",
+            BAD_TIMING1 = "¡Mal timing!",
+            BAD_TIMING2 = "¡Otra vez no!",
         },
         LOWER_SAIL_FAIL =
         {
-            "Whoops!",
-            "We're not slowing down!",
-            "Failure is success in progress!",
+            "Uy",
+            "No estamos frenando",
+            "¡Fallo!",
         },
         BATHBOMB =
         {
-            GLASSED = "I can't, the surface is glassed over.",
-            ALREADY_BOMBED = "That would be a waste of a bath bomb.",
+            GLASSED = "Hay cristal en medio.",
+            ALREADY_BOMBED = "Hay que ahorrar.",
         },
 	},
 	ACTIONFAIL_GENERIC = "I can't do that.",
