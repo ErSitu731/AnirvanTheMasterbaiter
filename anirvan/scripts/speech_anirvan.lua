@@ -516,32 +516,32 @@ return {
             HAUNTED_GROUND = "Voy a dejarla por aqui.",
         },
 
-        BALLOONS_EMPTY = "It looks like clown currency.",
-        BALLOON = "How are they floating?",
+        BALLOONS_EMPTY = "Moneda para payasos.",
+        BALLOON = "Drifbloon type of shit.",
 
         BERNIE_INACTIVE =
         {
-            BROKEN = "It finally fell apart.",
-            GENERIC = "It's all scorched.",
+            BROKEN = "No funca.",
+            GENERIC = "Está escarchado.",
         },
 
-        BERNIE_ACTIVE = "That teddy bear is moving around. Interesting.",
-        BERNIE_BIG = "Remind me not to get on Willow's bad side.",
+        BERNIE_ACTIVE = "Bernie bonito.",
+        BERNIE_BIG = "Bernie grande.",
 
-        BOOK_BIRDS = "No point studying when I can just wing it.",
-        BOOK_TENTACLES = "Someone'll get suckered into reading this.",
-        BOOK_GARDENING = "I see no farm in reading that.",
-        BOOK_SLEEP = "Strange, it's just 500 pages of telegraph codes.",
-        BOOK_BRIMSTONE = "The beginning was dull, but got better near the end.",
+        BOOK_BIRDS = "Pajaritos.",
+        BOOK_TENTACLES = "Hentai info.",
+        BOOK_GARDENING = "Plantitas.",
+        BOOK_SLEEP = "Wahrhammer 40k audiobook.",
+        BOOK_BRIMSTONE = "Buena lectura.",
 
         PLAYER =
         {
-            GENERIC = "Greetings, %s!",
-            ATTACKER = "%s looks shifty...",
-            MURDERER = "Murderer!",
-            REVIVER = "%s, friend of ghosts.",
-            GHOST = "%s could use a heart.",
-            FIRESTARTER = "Burning that wasn't very scientific, %s.",
+            GENERIC = "EHEM... Gentlemen!",
+            ATTACKER = "ATACAAAAD",
+            MURDERER = "Asesino!",
+            REVIVER = "Revive me Jett.",
+            GHOST = "%s ta muerto.",
+            FIRESTARTER = "Ale?",
         },
         WILSON =
         {
