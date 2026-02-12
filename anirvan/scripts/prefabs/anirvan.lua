@@ -11,6 +11,10 @@ TUNING.ANIRVAN_SANITY = 200
 
 -- Custom starting inventory
 TUNING.GAMEMODE_STARTING_ITEMS.DEFAULT.ANIRVAN = {
+	"ragebait_staff",
+	-- TODO: Re-enable when manual prefabs are fixed
+	-- "ragebait_manual_spider",
+	-- "ragebait_manual_pigman",
 	"flint",
 	"flint",
 	"twigs",
@@ -51,6 +55,9 @@ end
 local common_postinit = function(inst) 
 	-- Minimap icon
 	inst.MiniMapEntity:SetIcon( "anirvan.tex" )
+	
+	-- Character tag for recipe restrictions
+	inst:AddTag("anirvan")
 end
 
 -- This initializes for the server only. Components are added here.
@@ -74,6 +81,9 @@ local master_postinit = function(inst)
 	
 	-- Hunger rate (optional)
 	inst.components.hunger.hungerrate = 1 * TUNING.WILSON_HUNGER_RATE
+	
+	-- Add Ragebait controller component
+	inst:AddComponent("ragebait_controller")
 	
 	inst.OnLoad = onload
     inst.OnNewSpawn = onload

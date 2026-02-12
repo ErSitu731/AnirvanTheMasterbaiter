@@ -1,0 +1,6 @@
+<Atlas>
+  <Texture filename="../inventoryimages.tex" />
+  <Elements>
+    <Element name="staff.tex" u1="0.5" v1="0.5" u2="0.75" v2="0.75" />
+  </Elements>
+</Atlas>
