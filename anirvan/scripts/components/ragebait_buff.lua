@@ -46,7 +46,7 @@ function RagebaitBuff:_ApplyPlayerBuffs()
 	local locomotor = self.inst.components.locomotor
 	if locomotor then
 		self.original_walkspeed = locomotor.walkspeed
-		local speed_bonus = RAGEBAIT_CONSTANTS.PLAYER_MOVEMENT_SPEED_BONUS
+		local speed_bonus = RAGEBAIT_CONSTANTS.PLAYER_MOVE_SPEED_BONUS or 0.30
 		locomotor:SetExternalSpeedMultiplier(self.inst, "ragebait_buff", 1.0 + speed_bonus)
 	end
 	
@@ -54,7 +54,7 @@ function RagebaitBuff:_ApplyPlayerBuffs()
 	local combat = self.inst.components.combat
 	if combat then
 		self.original_damage_mult = combat.externaldamagemultipliers:Get()
-		combat.externaldamagemultipliers:SetModifier(self.inst, RAGEBAIT_CONSTANTS.PLAYER_DAMAGE_MULTIPLIER, "ragebait_buff")
+		combat.externaldamagetakenmultipliers:SetModifier(self.inst, RAGEBAIT_CONSTANTS.PLAYER_DAMAGE_MULTIPLIER or 2.0, "ragebait_buff")
 	end
 end
 
@@ -67,7 +67,7 @@ function RagebaitBuff:_RemovePlayerBuffs()
 	
 	local combat = self.inst.components.combat
 	if combat then
-		combat.externaldamagemultipliers:RemoveModifier(self.inst, "ragebait_buff")
+		combat.externaldamagetakenmultipliers:RemoveModifier(self.inst, "ragebait_buff")
 	end
 end
 

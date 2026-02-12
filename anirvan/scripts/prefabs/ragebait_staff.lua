@@ -61,7 +61,7 @@ local function fn()
 
 	inst.AnimState:SetBank("staffs")
 	inst.AnimState:SetBuild("staffs")
-	inst.AnimState:PlayAnimation("idle")
+	inst.AnimState:PlayAnimation("orangestaff")
 
 	inst:AddTag("ragebait_staff")
 
