@@ -7,6 +7,9 @@ PrefabFiles = {
 
 Assets = {
      
+	Asset( "IMAGE", "bigportraits/anirvan_none.tex" ),
+    Asset( "ATLAS", "bigportraits/anirvan_none.xml" ),
+	 
 	Asset( "IMAGE", "images/saveslot_portraits/anirvan.tex" ),
     Asset( "ATLAS", "images/saveslot_portraits/anirvan.xml" ),
 	
@@ -52,6 +55,7 @@ AddMinimapAtlas("images/map_icons/anirvan.xml")
 
 local require = GLOBAL.require
 local STRINGS = GLOBAL.STRINGS
+GLOBAL.PREFAB_SKINS["anirvan"] = { "anirvan_none", }
 
 -- ============================================================================
 -- MOD CONFIGURATION OPTIONS
