@@ -31,8 +31,8 @@ local function GenerateManualRecipes(Ingredient, TECH)
 			local recipe_config = {
 				description = "Manual for " .. friendly_name,
 				-- TODO: Add custom atlas/image when assets are ready
-				-- atlas = "images/inventoryimages/ragebait_manual_atlas.xml",
-				-- image = "ragebait_manual_base.tex",
+				atlas = "images/inventoryimages/ragebait_manual.xml",
+				image = "ragebait_manual.tex",
 				builder_tag = "anirvan", -- Only Anirvan can craft ragebait manuals
 			}
 			
