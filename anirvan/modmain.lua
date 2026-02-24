@@ -7,7 +7,9 @@ PrefabFiles = {
 
 Assets = {
      
-
+	Asset( "IMAGE", "images/saveslot_portraits/anirvan.tex" ),
+    Asset( "ATLAS", "images/saveslot_portraits/anirvan.xml" ),
+	
     Asset( "IMAGE", "images/selectscreen_portraits/anirvan.tex" ),
     Asset( "ATLAS", "images/selectscreen_portraits/anirvan.xml" ),
 	
