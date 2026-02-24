@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="ragebait_staff">
+        <file id="0" name="ragebait_staff/ragebait_staff.png" width="256" height="256" pivot_x="0.144531" pivot_y="0.039062"/>
+    </folder>
+    <folder id="1" name="swap_ragebait_staff">
+        <file id="0" name="swap_ragebait_staff/swap_ragebait_staff.png" width="256" height="256" pivot_x="0.242188" pivot_y="0.246094"/>
+    </folder>
+    <entity id="0" name="ragebait_staff">
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="ragebait_staff">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="1" y="1" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="BUILD" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="swap_ragebait_staff">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="1" y="1" angle="39.307648" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

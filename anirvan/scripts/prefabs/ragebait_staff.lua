@@ -4,12 +4,11 @@
 
 local assets =
 {
-	Asset("ANIM", "anim/staffs.zip"),  -- Use vanilla staff animations
-	Asset("ANIM", "anim/swap_staffs.zip"),
+	Asset("ANIM", "anim/ragebait_staff.zip"),  -- Use vanilla staff animations
 }
 
 local function OnEquip(inst, owner)
-	owner.AnimState:OverrideSymbol("swap_object", "swap_staffs", "swap_orangestaff")
+	owner.AnimState:OverrideSymbol("swap_object", "ragebait_staff", "swap_ragebait_staff")
 	owner.AnimState:Show("ARM_carry")
 	owner.AnimState:Hide("ARM_normal")
 	owner:AddTag("ragebait_equipped")
@@ -59,9 +58,9 @@ local function fn()
 
 	MakeInventoryPhysics(inst)
 
-	inst.AnimState:SetBank("staffs")
-	inst.AnimState:SetBuild("staffs")
-	inst.AnimState:PlayAnimation("orangestaff")
+	inst.AnimState:SetBank("ragebait_staff")
+	inst.AnimState:SetBuild("ragebait_staff")
+	inst.AnimState:PlayAnimation("idle")
 
 	inst:AddTag("ragebait_staff")
 
@@ -80,8 +79,8 @@ local function fn()
 	)
 
 	inst:AddComponent("inventoryitem")
-	inst.components.inventoryitem.imagename = "orangestaff"
-	inst.components.inventoryitem.atlasname = "images/inventoryimages.xml"
+	inst.components.inventoryitem.imagename = "ragebait_staff"
+	inst.components.inventoryitem.atlasname = "images/inventoryimages/ragebait_staff.xml"
 
 	inst:AddComponent("equippable")
 	inst.components.equippable:SetOnEquip(OnEquip)

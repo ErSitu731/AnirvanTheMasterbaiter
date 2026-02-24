@@ -6,8 +6,7 @@ PrefabFiles = {
 }
 
 Assets = {
-    Asset( "IMAGE", "images/saveslot_portraits/anirvan.tex" ),
-    Asset( "ATLAS", "images/saveslot_portraits/anirvan.xml" ),
+     
 
     Asset( "IMAGE", "images/selectscreen_portraits/anirvan.tex" ),
     Asset( "ATLAS", "images/selectscreen_portraits/anirvan.xml" ),
@@ -35,6 +34,11 @@ Assets = {
 	
 	Asset( "IMAGE", "images/names_gold_anirvan.tex" ),
     Asset( "ATLAS", "images/names_gold_anirvan.xml" ),
+	
+	Asset( "IMAGE", "images/inventoryimages/ragebait_staff.tex" ),
+    Asset( "ATLAS", "images/inventoryimages/ragebait_staff.xml" ),
+	
+	Asset( "ANIM", "anim/ragebait_staff.zip" ),
 }
 
 AddMinimapAtlas("images/map_icons/anirvan.xml")
