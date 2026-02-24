@@ -4,7 +4,7 @@
 
 local assets =
 {
-	Asset("ANIM", "anim/ragebait_staff.zip"),  -- Use vanilla staff animations
+	Asset("ANIM", "anim/ragebait_staff.zip"),
 }
 
 local function OnEquip(inst, owner)

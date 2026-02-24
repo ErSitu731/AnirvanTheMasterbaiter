@@ -4,7 +4,7 @@
 local CREATURE_MAP = require("data/ragebait_creature_map")
 
 local assets = {
-	Asset("ANIM", "anim/papyrus.zip"),
+	Asset("ANIM", "anim/ragebait_manual.zip"),
 }
 
 local prefabs = {}
@@ -19,8 +19,8 @@ local function MakeManualPrefab(creature_id, manual_id)
 
 		MakeInventoryPhysics(inst)
 
-		inst.AnimState:SetBank("papyrus")
-		inst.AnimState:SetBuild("papyrus")
+		inst.AnimState:SetBank("ragebait_manual")
+		inst.AnimState:SetBuild("ragebait_manual")
 		inst.AnimState:PlayAnimation("idle")
 
 		inst:AddTag("ragebait_manual")
@@ -40,8 +40,8 @@ local function MakeManualPrefab(creature_id, manual_id)
 		inst:AddComponent("inspectable")
 
 		inst:AddComponent("inventoryitem")
-		inst.components.inventoryitem.imagename = "papyrus"
-		inst.components.inventoryitem.atlasname = "images/inventoryimages.xml"
+		inst.components.inventoryitem.imagename = "ragebait_manual"
+		inst.components.inventoryitem.atlasname = "images/inventoryimages/ragebait_manual.xml"
 
 		MakeHauntableLaunch(inst)
 

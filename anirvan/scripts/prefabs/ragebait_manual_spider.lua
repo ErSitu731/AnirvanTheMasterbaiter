@@ -1,4 +1,6 @@
-local assets = {}
+local assets = {
+	Asset("ANIM", "anim/ragebait_manual.zip"),
+}
 
 local function OnRead(inst, reader)
     if reader and reader.components and reader.components.ragebait_controller then
@@ -20,6 +22,10 @@ local function fn()
 
     MakeInventoryPhysics(inst)
 
+	inst.AnimState:SetBank("ragebait_manual")
+	inst.AnimState:SetBuild("ragebait_manual")
+	inst.AnimState:PlayAnimation("idle")
+
     inst:AddTag("ragebait_manual")
     inst:AddTag("simplebook")
 
@@ -32,8 +38,8 @@ local function fn()
     inst:AddComponent("inspectable")
 
     inst:AddComponent("inventoryitem")
-    inst.components.inventoryitem.imagename = "book_brimstone"
-    inst.components.inventoryitem.atlasname = "images/inventoryimages.xml"
+    inst.components.inventoryitem.imagename = "ragebait_manual"
+	inst.components.inventoryitem.atlasname = "images/inventoryimages/ragebait_manual.xml"
 
     inst:AddComponent("simplebook")
     inst.components.simplebook.onreadfn = OnRead

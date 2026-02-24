@@ -41,6 +41,11 @@ Assets = {
     Asset( "ATLAS", "images/inventoryimages/ragebait_staff.xml" ),
 	
 	Asset( "ANIM", "anim/ragebait_staff.zip" ),
+	
+	Asset( "IMAGE", "images/inventoryimages/ragebait_manual.tex" ),
+    Asset( "ATLAS", "images/inventoryimages/ragebait_manual.xml" ),
+
+	Asset( "ANIM", "anim/ragebait_manual.zip" ),
 }
 
 AddMinimapAtlas("images/map_icons/anirvan.xml")
